@@ -1,0 +1,1271 @@
+[
+    {
+        "monthname": "September",
+        "year": 2023,
+        "daysinmonth": 30,
+        "firstwkday": 5,
+        "mondayfirst": 0,
+        "daynames": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "prevmonthname": "August",
+        "daysinprevmonth": 31,
+        "prevmonthyear": 2023,
+        "nextmonthname": "October",
+        "daysinnextmonth": 31,
+        "nextmonthyear": 2023,
+        "entries": [
+            {
+                "date": "2023-09-01",
+                "filename": "defs.rem",
+                "lineno": 67,
+                "d": 1,
+                "priority": 5000,
+                "rawbody": "John's [_mo_num(11, 1984)] 'monthly' anniversary",
+                "body": "John's 466th 'monthly' anniversary"
+            },
+            {
+                "date": "2023-09-01",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (15 Elul) show"
+            },
+            {
+                "date": "2023-09-01",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:24 Sunset: 18:41) show"
+            },
+            {
+                "date": "2023-09-01",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(244(121)) show"
+            },
+            {
+                "date": "2023-09-01",
+                "filename": "defs.rem",
+                "lineno": 442,
+                "wd": [
+                    "Friday"
+                ],
+                "priority": 5000,
+                "rawbody": "Candle lighting at [sunset($T)-18]",
+                "body": "Candle lighting at 18:23"
+            },
+            {
+                "date": "2023-09-01",
+                "filename": "defs.rem",
+                "lineno": 448,
+                "passthru": "COLOR",
+                "d": 1,
+                "priority": 5000,
+                "r": 0,
+                "g": 0,
+                "b": 255,
+                "rawbody": "A blue reminder.",
+                "plain_body": "A blue reminder.",
+                "body": "0 0 255 A blue reminder."
+            },
+            {
+                "date": "2023-09-02",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-02",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (16 Elul) show"
+            },
+            {
+                "date": "2023-09-02",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:25 Sunset: 18:38) show"
+            },
+            {
+                "date": "2023-09-02",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(245(120)) show"
+            },
+            {
+                "date": "2023-09-02",
+                "filename": "defs.rem",
+                "lineno": 443,
+                "wd": [
+                    "Saturday"
+                ],
+                "priority": 5000,
+                "rawbody": "Havdalah at [sunset($T)+42]",
+                "body": "Havdalah at 19:20"
+            },
+            {
+                "date": "2023-09-02",
+                "filename": "defs.rem",
+                "lineno": 449,
+                "passthru": "COLOR",
+                "d": 2,
+                "priority": 5000,
+                "r": 255,
+                "g": 0,
+                "b": 0,
+                "rawbody": "%\"A red reminder%\" safe to use in the calendar mode.",
+                "plain_body": "A red reminder",
+                "body": "255 0 0 A red reminder"
+            },
+            {
+                "date": "2023-09-03",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-03",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (17 Elul) show"
+            },
+            {
+                "date": "2023-09-03",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:26 Sunset: 18:37) show"
+            },
+            {
+                "date": "2023-09-03",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(246(119)) show"
+            },
+            {
+                "date": "2023-09-04",
+                "filename": "defs.rem",
+                "lineno": 186,
+                "wd": [
+                    "Monday"
+                ],
+                "d": 1,
+                "m": 9,
+                "scanfrom": "2023-08-28",
+                "priority": 5000,
+                "rawbody": "%\"Labor Day%\"",
+                "body": "Labor Day"
+            },
+            {
+                "date": "2023-09-04",
+                "filename": "defs.rem",
+                "lineno": 205,
+                "passthru": "SHADE",
+                "if_depth": 1,
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-04",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (18 Elul) show"
+            },
+            {
+                "date": "2023-09-04",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:28 Sunset: 18:34) show"
+            },
+            {
+                "date": "2023-09-04",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(247(118)) show"
+            },
+            {
+                "date": "2023-09-05",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (19 Elul) show"
+            },
+            {
+                "date": "2023-09-05",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:29 Sunset: 18:33) show"
+            },
+            {
+                "date": "2023-09-05",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(248(117)) show"
+            },
+            {
+                "date": "2023-09-06",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (20 Elul) show"
+            },
+            {
+                "date": "2023-09-06",
+                "filename": "defs.rem",
+                "lineno": 245,
+                "passthru": "MOON",
+                "d": 6,
+                "m": 9,
+                "y": 2023,
+                "nonconst_expr": 1,
+                "priority": 5000,
+                "body": "3"
+            },
+            {
+                "date": "2023-09-06",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:30 Sunset: 18:32) show"
+            },
+            {
+                "date": "2023-09-06",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(249(116)) show"
+            },
+            {
+                "date": "2023-09-07",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (21 Elul) show"
+            },
+            {
+                "date": "2023-09-07",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:30 Sunset: 18:30) show"
+            },
+            {
+                "date": "2023-09-07",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(250(115)) show"
+            },
+            {
+                "date": "2023-09-08",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (22 Elul) show"
+            },
+            {
+                "date": "2023-09-08",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:31 Sunset: 18:27) show"
+            },
+            {
+                "date": "2023-09-08",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(251(114)) show"
+            },
+            {
+                "date": "2023-09-08",
+                "filename": "defs.rem",
+                "lineno": 442,
+                "wd": [
+                    "Friday"
+                ],
+                "priority": 5000,
+                "rawbody": "Candle lighting at [sunset($T)-18]",
+                "body": "Candle lighting at 18:09"
+            },
+            {
+                "date": "2023-09-09",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-09",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (23 Elul) show"
+            },
+            {
+                "date": "2023-09-09",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:33 Sunset: 18:26) show"
+            },
+            {
+                "date": "2023-09-09",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(252(113)) show"
+            },
+            {
+                "date": "2023-09-09",
+                "filename": "defs.rem",
+                "lineno": 443,
+                "wd": [
+                    "Saturday"
+                ],
+                "priority": 5000,
+                "rawbody": "Havdalah at [sunset($T)+42]",
+                "body": "Havdalah at 19:08"
+            },
+            {
+                "date": "2023-09-10",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-10",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (24 Elul) show"
+            },
+            {
+                "date": "2023-09-10",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:34 Sunset: 18:23) show"
+            },
+            {
+                "date": "2023-09-10",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(253(112)) show"
+            },
+            {
+                "date": "2023-09-11",
+                "filename": "defs.rem",
+                "lineno": 223,
+                "d": 11,
+                "m": 9,
+                "y": 2023,
+                "nonconst_expr": 1,
+                "if_depth": 1,
+                "priority": 5000,
+                "body": "Delayed meeting"
+            },
+            {
+                "date": "2023-09-11",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (25 Elul) show"
+            },
+            {
+                "date": "2023-09-11",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:35 Sunset: 18:22) show"
+            },
+            {
+                "date": "2023-09-11",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(254(111)) show"
+            },
+            {
+                "date": "2023-09-12",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (26 Elul) show"
+            },
+            {
+                "date": "2023-09-12",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:36 Sunset: 18:19) show"
+            },
+            {
+                "date": "2023-09-12",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(255(110)) show"
+            },
+            {
+                "date": "2023-09-13",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (27 Elul) show"
+            },
+            {
+                "date": "2023-09-13",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:38 Sunset: 18:18) show"
+            },
+            {
+                "date": "2023-09-13",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(256(109)) show"
+            },
+            {
+                "date": "2023-09-14",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (28 Elul) show"
+            },
+            {
+                "date": "2023-09-14",
+                "filename": "defs.rem",
+                "lineno": 242,
+                "passthru": "MOON",
+                "d": 14,
+                "m": 9,
+                "y": 2023,
+                "nonconst_expr": 1,
+                "priority": 5000,
+                "body": "0"
+            },
+            {
+                "date": "2023-09-14",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:40 Sunset: 18:15) show"
+            },
+            {
+                "date": "2023-09-14",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(257(108)) show"
+            },
+            {
+                "date": "2023-09-15",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (29 Elul) show"
+            },
+            {
+                "date": "2023-09-15",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:41 Sunset: 18:14) show"
+            },
+            {
+                "date": "2023-09-15",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(258(107)) show"
+            },
+            {
+                "date": "2023-09-15",
+                "filename": "defs.rem",
+                "lineno": 442,
+                "wd": [
+                    "Friday"
+                ],
+                "priority": 5000,
+                "rawbody": "Candle lighting at [sunset($T)-18]",
+                "body": "Candle lighting at 17:56"
+            },
+            {
+                "date": "2023-09-16",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-16",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (1 Tishrey) show"
+            },
+            {
+                "date": "2023-09-16",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:42 Sunset: 18:11) show"
+            },
+            {
+                "date": "2023-09-16",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(259(106)) show"
+            },
+            {
+                "date": "2023-09-16",
+                "filename": "defs.rem",
+                "lineno": 308,
+                "d": 16,
+                "m": 9,
+                "y": 2023,
+                "delta": -4,
+                "nonconst_expr": 1,
+                "priority": 5000,
+                "rawbody": "%\"Rosh Hashana 1%\" is %b.",
+                "body": "Rosh Hashana 1"
+            },
+            {
+                "date": "2023-09-16",
+                "filename": "defs.rem",
+                "lineno": 443,
+                "wd": [
+                    "Saturday"
+                ],
+                "priority": 5000,
+                "rawbody": "Havdalah at [sunset($T)+42]",
+                "body": "Havdalah at 18:53"
+            },
+            {
+                "date": "2023-09-17",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-17",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (2 Tishrey) show"
+            },
+            {
+                "date": "2023-09-17",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:43 Sunset: 18:10) show"
+            },
+            {
+                "date": "2023-09-17",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(260(105)) show"
+            },
+            {
+                "date": "2023-09-17",
+                "filename": "defs.rem",
+                "lineno": 312,
+                "d": 17,
+                "m": 9,
+                "y": 2023,
+                "delta": -4,
+                "nonconst_expr": 1,
+                "if_depth": 1,
+                "priority": 5000,
+                "rawbody": "%\"Rosh Hashana 2%\" is %b.",
+                "body": "Rosh Hashana 2"
+            },
+            {
+                "date": "2023-09-18",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (3 Tishrey) show"
+            },
+            {
+                "date": "2023-09-18",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:45 Sunset: 18:08) show"
+            },
+            {
+                "date": "2023-09-18",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(261(104)) show"
+            },
+            {
+                "date": "2023-09-18",
+                "filename": "defs.rem",
+                "lineno": 313,
+                "d": 18,
+                "m": 9,
+                "y": 2023,
+                "delta": -4,
+                "nonconst_expr": 1,
+                "if_depth": 1,
+                "priority": 5000,
+                "rawbody": "%\"Tzom Gedalia%\" is %b.",
+                "body": "Tzom Gedalia"
+            },
+            {
+                "date": "2023-09-19",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (4 Tishrey) show"
+            },
+            {
+                "date": "2023-09-19",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:46 Sunset: 18:07) show"
+            },
+            {
+                "date": "2023-09-19",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(262(103)) show"
+            },
+            {
+                "date": "2023-09-20",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (5 Tishrey) show"
+            },
+            {
+                "date": "2023-09-20",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:46 Sunset: 18:04) show"
+            },
+            {
+                "date": "2023-09-20",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(263(102)) show"
+            },
+            {
+                "date": "2023-09-21",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (6 Tishrey) show"
+            },
+            {
+                "date": "2023-09-21",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:47 Sunset: 18:03) show"
+            },
+            {
+                "date": "2023-09-21",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(264(101)) show"
+            },
+            {
+                "date": "2023-09-22",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (7 Tishrey) show"
+            },
+            {
+                "date": "2023-09-22",
+                "filename": "defs.rem",
+                "lineno": 243,
+                "passthru": "MOON",
+                "d": 22,
+                "m": 9,
+                "y": 2023,
+                "nonconst_expr": 1,
+                "priority": 5000,
+                "body": "1"
+            },
+            {
+                "date": "2023-09-22",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:48 Sunset: 18:00) show"
+            },
+            {
+                "date": "2023-09-22",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(265(100)) show"
+            },
+            {
+                "date": "2023-09-22",
+                "filename": "defs.rem",
+                "lineno": 442,
+                "wd": [
+                    "Friday"
+                ],
+                "priority": 5000,
+                "rawbody": "Candle lighting at [sunset($T)-18]",
+                "body": "Candle lighting at 17:42"
+            },
+            {
+                "date": "2023-09-23",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-23",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (8 Tishrey) show"
+            },
+            {
+                "date": "2023-09-23",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:50 Sunset: 17:59) show"
+            },
+            {
+                "date": "2023-09-23",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(266(99)) show"
+            },
+            {
+                "date": "2023-09-23",
+                "filename": "defs.rem",
+                "lineno": 443,
+                "wd": [
+                    "Saturday"
+                ],
+                "priority": 5000,
+                "rawbody": "Havdalah at [sunset($T)+42]",
+                "body": "Havdalah at 18:41"
+            },
+            {
+                "date": "2023-09-24",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-24",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (9 Tishrey) show"
+            },
+            {
+                "date": "2023-09-24",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:51 Sunset: 17:56) show"
+            },
+            {
+                "date": "2023-09-24",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(267(98)) show"
+            },
+            {
+                "date": "2023-09-25",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (10 Tishrey) show"
+            },
+            {
+                "date": "2023-09-25",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:53 Sunset: 17:55) show"
+            },
+            {
+                "date": "2023-09-25",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(268(97)) show"
+            },
+            {
+                "date": "2023-09-25",
+                "filename": "defs.rem",
+                "lineno": 316,
+                "d": 25,
+                "m": 9,
+                "y": 2023,
+                "delta": -4,
+                "nonconst_expr": 1,
+                "priority": 5000,
+                "rawbody": "%\"Yom Kippur%\" is %b.",
+                "body": "Yom Kippur"
+            },
+            {
+                "date": "2023-09-26",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (11 Tishrey) show"
+            },
+            {
+                "date": "2023-09-26",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:54 Sunset: 17:52) show"
+            },
+            {
+                "date": "2023-09-26",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(269(96)) show"
+            },
+            {
+                "date": "2023-09-27",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (12 Tishrey) show"
+            },
+            {
+                "date": "2023-09-27",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:56 Sunset: 17:51) show"
+            },
+            {
+                "date": "2023-09-27",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(270(95)) show"
+            },
+            {
+                "date": "2023-09-28",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (13 Tishrey) show"
+            },
+            {
+                "date": "2023-09-28",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:57 Sunset: 17:48) show"
+            },
+            {
+                "date": "2023-09-28",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(271(94)) show"
+            },
+            {
+                "date": "2023-09-29",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (14 Tishrey) show"
+            },
+            {
+                "date": "2023-09-29",
+                "filename": "defs.rem",
+                "lineno": 244,
+                "passthru": "MOON",
+                "d": 29,
+                "m": 9,
+                "y": 2023,
+                "nonconst_expr": 1,
+                "priority": 5000,
+                "body": "2"
+            },
+            {
+                "date": "2023-09-29",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:58 Sunset: 17:47) show"
+            },
+            {
+                "date": "2023-09-29",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(272(93)) show"
+            },
+            {
+                "date": "2023-09-29",
+                "filename": "defs.rem",
+                "lineno": 442,
+                "wd": [
+                    "Friday"
+                ],
+                "priority": 5000,
+                "rawbody": "Candle lighting at [sunset($T)-18]",
+                "body": "Candle lighting at 17:29"
+            },
+            {
+                "date": "2023-09-30",
+                "filename": "defs.rem",
+                "lineno": 120,
+                "passthru": "SHADE",
+                "wd": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "priority": 5000,
+                "r": 220,
+                "g": 220,
+                "b": 220,
+                "body": "220"
+            },
+            {
+                "date": "2023-09-30",
+                "filename": "defs.rem",
+                "lineno": 239,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border moveto \n   /DayFont findfont DaySize scalefont setfont \n   ([hebday($U)] [hebmon($U)]) show",
+                "body": "Border Border moveto    /DayFont findfont DaySize scalefont setfont    (15 Tishrey) show"
+            },
+            {
+                "date": "2023-09-30",
+                "filename": "defs.rem",
+                "lineno": 251,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "Border Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t(Sunrise: [sunrise($T)] Sunset: [sunset($T)]) show",
+                "body": "Border Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(Sunrise: 05:59 Sunset: 17:45) show"
+            },
+            {
+                "date": "2023-09-30",
+                "filename": "defs.rem",
+                "lineno": 259,
+                "passthru": "PostScript",
+                "priority": 5000,
+                "rawbody": "BoxWidth 3 mul 4 div Border 5 sub moveto \n\t/SmallFont findfont 4 scalefont setfont \n\t([_DayOfYear($U)]([365+isleap($U)-_DayOfYear($U)])) show",
+                "body": "BoxWidth 3 mul 4 div Border 5 sub moveto \t/SmallFont findfont 4 scalefont setfont \t(273(92)) show"
+            },
+            {
+                "date": "2023-09-30",
+                "filename": "defs.rem",
+                "lineno": 317,
+                "d": 30,
+                "m": 9,
+                "y": 2023,
+                "delta": -4,
+                "nonconst_expr": 1,
+                "priority": 5000,
+                "rawbody": "%\"Sukkot 1%\" is %b.",
+                "body": "Sukkot 1"
+            },
+            {
+                "date": "2023-09-30",
+                "filename": "defs.rem",
+                "lineno": 443,
+                "wd": [
+                    "Saturday"
+                ],
+                "priority": 5000,
+                "rawbody": "Havdalah at [sunset($T)+42]",
+                "body": "Havdalah at 18:27"
+            }
+        ]
+    }
+]
